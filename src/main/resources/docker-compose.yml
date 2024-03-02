@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  statistic-service-postgres:
+    image: postgres:15
+    container_name: statistic_service_postgres
+    environment:
+      POSTGRES_DB: "statistic_service"
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "password"
+    ports:
+      - "5437:5432"
