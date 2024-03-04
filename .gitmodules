@@ -1,0 +1,4 @@
+[submodule "transfer-contract"]
+	path = transfer-contract
+	url = git@github.com:cashback-system/transfer-contract.git
+	branch = main

@@ -13,8 +13,6 @@ spring:
       ddl-auto: validate
   liquibase:
     change-log: classpath:/db/changelog.xml
-  docker-compose:
-    format: yml
   docker:
     compose:
       enabled: true
