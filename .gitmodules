@@ -1,4 +1,4 @@
 [submodule "transfer-contract"]
 	path = transfer-contract
-	url = git@github.com:cashback-system/transfer-contract.git
+	url = https://github.com/cashback-system/statistic-service.git
 	branch = main
